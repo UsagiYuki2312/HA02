@@ -5,7 +5,12 @@ using UnityEngine;
 
 public enum TeeMessageType
 {
-
+    OnPlayButtonClicked = 1,
+    OnPauseButtonClicked = 6,
+    OnPauseMenuDestroyed = 7,
+    OnPlayerChangeScene,
+    OnPlayerRevive = 10,
+    OnPlayerDie = 11
 }
 
 public class Message
